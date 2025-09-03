@@ -1,41 +1,72 @@
-# AI-Powered Brainstorming Template
+# AI Brainstorming Template
 
-A structured approach for designers to brainstorm product ideas with AI assistance, focusing on strategic thinking and mental model discovery.
+A structured approach to brainstorm with AI using **Thread Pulling** and **Artifacts of Thought** patterns. Works with any AI coding assistant - no specific tool required.
 
 ## Quick Start
 
-1. **Clone this template** to your Kiro workspace
-2. **Start brainstorming** with Kiro about any product design challenge
-3. **Say "add this to threads"** when you want to capture an idea
-4. **Use the guide** in `brainstorming-guide.md` for effective brainstorming patterns
+1. **Choose your IDE**: Kiro or Cursor
+2. **Add the brainstorming instructions** to your AI assistant (see setup below)
+3. **Start brainstorming** with any broad question
+4. **Say "add this to threads"** to capture emerging ideas automatically
+5. **Use "update AoT"** to track your thinking evolution
 
-> **Note**: This template uses Kiro's steering system for automatic workflow management. The methodology can be adapted for other AI assistants, but you'll need to manually provide the instructions from the steering file.
+## Setup Instructions
+
+### Kiro
+The steering doc is already included in `.kiro/steering/brainstorming-workflow.md` - just start brainstorming!
+
+### Cursor
+1. Go to Settings → Rules for AI
+2. Copy the instructions from `.kiro/steering/brainstorming-workflow.md`
+3. Paste them into your Rules for AI
+
+
+
 
 ## What You Get
 
-- **Structured file management**: Consistent formatting for captured ideas
-- **Proven methodology**: Battle-tested patterns for moving from broad ideas to specific solutions
-- **Strategic focus**: Frameworks that push beyond UI patterns to mental models and business strategy
+- **Thread Pulling**: Capture and systematically explore interesting ideas without losing them in chat history
+- **Artifacts of Thought**: Track how your thinking evolves within each session with living documents
+- **Compound Learning**: Build on previous sessions instead of starting from scratch each time
+- **Universal Workflow**: Works with any AI tool - choose what you're comfortable with
 
 ## Files Included
 
-- `brainstorming-guide.md` - Human guide for effective brainstorming methodology
-- `.kiro/steering/brainstorming-workflow.md` - Kiro steering instructions for automatic workflow management
+- `threads.md` - Template for capturing ideas to explore further
+- `AoT.md` - Template for session summaries and insights
+- `brainstorming-guide.md` - Methodology and best practices
+- `.kiro/steering/brainstorming-workflow.md` - AI instructions (adapt for your IDE)
 
-## Example Workflow
+## Example Session Flow
 
-1. Start with a broad question: "How might designers work differently in 2030?"
-2. Challenge assumptions: "But don't these tools already exist?"
-3. Find current market reality: "What do companies actually want right now?"
-4. Generate specific solutions: "Add this idea to threads"
-5. Iterate and refine until you have actionable concepts
+```
+You: "How might solo designers use AI in 2030?"
+AI: [Shares several ideas about automation, strategy, etc.]
+You: "Add this to threads" 
+AI: [Automatically updates threads.md with structured format]
+You: "Update AoT with our key insights so far"
+AI: [Updates AoT.md with session summary]
+You: "Let's dive deeper on thread #3"
+AI: [Expands on that specific idea with full context]
+```
 
-## Tips for Success
+## Why This Works
 
-- Push for concrete examples over generic concepts
-- Always ask "who would pay for this and why?"
-- Connect ideas to current market timing
-- Challenge whether roles/industries will remain unchanged
-- Force specificity with "give me a concrete example"
+**Traditional AI brainstorming problems**:
+- Ideas get buried in chat history
+- Hard to build systematically on previous thoughts  
+- No way to connect insights across sessions
 
-Ready to brainstorm? Start a conversation with your AI assistant and begin exploring!
+**This template solves**:
+- Persistent files that evolve with your thinking
+- Structured format that forces clarity
+- Searchable repository of all your brainstorming sessions
+
+## Get Started
+
+1. **Complete setup** for your IDE (see instructions above)
+2. **Start simple**: Ask a broad question and try "add this to threads"
+3. **Build the habit**: Use "update AoT" every 20-30 minutes
+4. **Read the methodology**: Check `brainstorming-guide.md` for advanced patterns
+
+Ready to transform how you brainstorm with AI? Pick your IDE and dive in!
