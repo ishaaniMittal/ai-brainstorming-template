@@ -1,6 +1,6 @@
 # Exclude session-specific files
 threads.md
-summary.md
+AoT.md
 
 # macOS
 .DS_Store

@@ -22,7 +22,7 @@
 
 ## File Structure
 - Use threads.md for brainstormed ideas
-- Use summary.md for session summaries and next steps
+- Use AoT.md (Artifacts of Thought) for session summaries and next steps
 - Keep ideas focused and actionable
 - Each idea should be immediately understandable and specific
 
