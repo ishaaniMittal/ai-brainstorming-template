@@ -1,0 +1,14 @@
+# Exclude session-specific files
+threads.md
+summary.md
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
